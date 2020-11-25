@@ -49,7 +49,8 @@ The chithunzi project is intended to solve the problem of having free and premiu
 ## Setup
 
 Launch the project directory using your favourite web server. 
-You can also launch using PHP's way of launching a server by running the following command in your terminal:
+You can also launch using PHP's way of launching a server instance by running the following command in your terminal
+within your application's root directory:
 
     php -S 0.0.0.0:8000
     

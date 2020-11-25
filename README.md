@@ -24,6 +24,21 @@ The chithunzi project is intended to solve the problem of having free and premiu
 
 ## Project Directory Structure
 
+    |-- assets
+        |-- css
+        |-- imgs
+        |-- js
+    |-- config
+    |-- docs
+    |-- public
+    |-- src
+        |-- Controllers
+    .gitignore
+    composer.json
+    index.php
+    LICENSE
+    README.md
+
 ## Technologies
 
 - HTML 5

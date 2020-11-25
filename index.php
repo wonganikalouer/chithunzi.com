@@ -5,17 +5,22 @@
     <title>
         Chithunzi
     </title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
 </head>
 
 <body>
 <h1>Chithunzi</h1>
 
-<form method="post" action="#">
-    <label for="image_search"></label>
-    <input id="image_search" name="text" placeholder="Search for an image by keywords (e.g. 'malawian dog','mzuzu coffee')">
+<div>
+    <form method="post" action="#">
+        <label for="image_search"></label>
+        <input id="image_search" name="text" placeholder="Search for an image by keywords (e.g. 'malawian dog','mzuzu coffee')">
 
-    <button type="submit">Search</button>
-</form>
+        <button type="submit">Search</button>
+    </form>
+</div>
 
 <!-- TODO: To create a DivTag Paypal Merchant Account to be receiving donations and buy me a coffee payments. -->
 <!-- This adds in a donate button -->

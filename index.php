@@ -1,5 +1,4 @@
-<?php
+<?php ?>
 
-
-// PHP autoloader
-// require 'vendor/autoload.php';
+<html lang="en">
+<h1>Chithunzi.com Initial</h1>

@@ -1,0 +1,12 @@
+{
+    "name": "divtag/chithunzi",
+    "description": "An Image content library for local Malawian images. This includes places, Landscapes, people and many more.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chithunzi\\": "src/"
+        }
+    },
+    "require": {}
+}

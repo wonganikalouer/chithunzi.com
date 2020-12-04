@@ -2,3 +2,12 @@
 .main-search-bar {
     display: inline-block;
 }
+
+This is the main container on the home screen
+#main-holder{
+    height: 400px;
+    /* background-color: blueviolet; */
+    width: 100%;
+    float: left;
+    background-image: url(../imgs/test.jpg);
+}

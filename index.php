@@ -3,23 +3,28 @@
 <html lang="en">
 <head>
     <title>
-        Chithunzi
+        Chithunzi.com
     </title>
-
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/fontawesome/fontawesome.css">
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="vendor/gslib/gslib_client_v1.2.3.js"></script>
+    
 </head>
-
 <body>
-<h1>Chithunzi</h1>
-
-<div>
-    <form method="post" action="#">
-        <label for="image_search"></label>
-        <input id="image_search" name="text" placeholder="Search for an image by keywords (e.g. 'malawian dog','mzuzu coffee')">
-
-        <button type="submit">Search</button>
-    </form>
+<?php require("public/views/header.php") ?>
+<!-- This is a manual slider, not a real slider though, this will hold the most downloaded landscape photo and search key filter -->
+<!-- id variables are to be separated with a "-" symbol, and declared with "_" when using in javascript or php -->
+<div class="row m-0 p-0">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+        <div id="main-holder">
+            Zii
+        </div>
+    </div>
+    <div class="col-md-1"></div>
 </div>
 
 <!-- TODO: To create a DivTag Paypal Merchant Account to be receiving donations and buy me a coffee payments. -->
@@ -30,3 +35,4 @@
 
 </body>
 </html>
+<script src="assets/js/main.js"></script>

@@ -11,3 +11,38 @@ This is the main container on the home screen
     float: left;
     background-image: url(../imgs/test.jpg);
 }
+
+#main-logo{
+    width: 150px;
+}
+
+#image-icon{
+    width: 30%;
+    height: 200px;
+    margin: 1%;
+    object-fit: cover;
+    overflow: hidden;
+    background-size: 100%;
+    float: left;
+}
+
+#hoverable-div{
+    height: 50px;
+    padding-top: 10px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 300ms;
+    margin-top: 150px;
+}
+
+#hoverable-div:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#hoverable-div button:hover{
+    border: 1px solid white;
+}
+
+#hoverable-div button:active{
+    transform: scale(0.9);
+}

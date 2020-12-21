@@ -6,12 +6,15 @@
         Chithunzi.com
     </title>
     <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.mobile.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
     <link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../vendor/fontawesome/fontawesome.css">
+    <script src="../vendor/jquery/jquery.js"></script>
     <script src="../vendor/bootstrap/js/bootstrap.js"></script>
     <script src="../vendor/gslib/gslib_client_v1.2.3.js"></script>
     <link rel="shortcut icon" type="image/jpg" href="../assets/imgs/main_logo_sm.png"/>
+    <meta name="viewport" content="width=device-width"/>
 </head>
 <body>
 <?php require("views/header.php") ?>
@@ -220,6 +223,10 @@
         </div>
     </div>
     <div class="col-md-1"></div>
+</div>
+
+<div class="w-100">
+    <?php require("views/footer.php"); ?>
 </div>
 
 <!-- TODO: To create a DivTag Paypal Merchant Account to be receiving donations and buy me a coffee payments. -->

@@ -3,14 +3,6 @@
     display: inline-block;
 }
 
-This is the main container on the home screen
-#main-holder{
-    height: 400px;
-    /* background-color: blueviolet; */
-    width: 100%;
-    float: left;
-    background-image: url(../imgs/test.jpg);
-}
 
 #main-logo{
     width: 150px;
@@ -24,6 +16,8 @@ This is the main container on the home screen
     overflow: hidden;
     background-size: 100%;
     float: left;
+    border:3px solid #ccc;
+    border-radius: 10px;
 }
 
 #hoverable-div{
@@ -45,4 +39,16 @@ This is the main container on the home screen
 
 #hoverable-div button:active{
     transform: scale(0.9);
+}
+
+#camera{
+    transition: 300ms;
+}
+
+#camera:hover{
+    transform: scale(1.1);
+}
+
+#image-icon{
+    border-color: black;
 }

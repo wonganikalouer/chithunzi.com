@@ -1,0 +1,14 @@
+@media (max-width: 800px){
+    #top-header{
+        padding-top: 10px;
+    }
+
+    #nav-header{
+        background-color: black;
+    }
+
+    #image-icon{
+        width: 100%;
+    }
+
+}

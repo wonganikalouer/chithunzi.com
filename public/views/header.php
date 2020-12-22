@@ -1,5 +1,5 @@
 <div class="w-100 p-1 float-left bg-dark text-light" id="top-header">
-  <a class="navbar-brand float-left" href=""><img src="../assets/imgs/main_logo_lg.png" alt="wesite main logo" id="main-logo" ></a>
+  <a class="navbar-brand float-left" href="index.php"><img src="../assets/imgs/main_logo_lg.png" alt="wesite main logo" id="main-logo" ></a>
   <form action="" method="POST" style="float:left;width:auto;">
   <input type="text" class="btn btn-light text-left" placeholder="search" id="search">
   <button type="submit" class="btn btn-light"><i class="fa fa-search"></i></button>

@@ -49,6 +49,9 @@
           <li>
             <a href="#!" class="text-white">Register</a>
           </li>
+          <li>
+            <a href="https://github.com/wonganikalouer/chithunzi.com" class="text-white" title="join the developers on github"> <i class="fa fa-github"></i> Join the community</a>
+          </li>
         </ul>
       </div>
       <!--Grid column-->

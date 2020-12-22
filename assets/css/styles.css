@@ -52,3 +52,14 @@
 #image-icon{
     border-color: black;
 }
+
+#preview-holder{
+    width: 100%;
+    float: left;
+    box-shadow: 5px 10px #888888;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+button{
+    border-radius: 0px !important;
+}

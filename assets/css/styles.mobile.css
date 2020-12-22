@@ -1,10 +1,12 @@
 @media (max-width: 800px){
     #top-header{
         padding-top: 10px;
+        display: none;
     }
 
     #nav-header{
-        background-color: black;
+        background-color: #ccc !important;
+        margin-bottom: 2px;
     }
 
     #image-icon{

@@ -24,6 +24,30 @@
     <div class="col-md-1"></div>
     <div class="col-md-10">
         <div id="main-holder">
+            <div class="w-100 float-left m-3 mb-0">
+                    <nav aria-label="...">
+                    <ul class="pagination pagination-sm">
+                    <li class="page-item disabled">
+                    <a class="page-link" href="#!" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#!">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#!">Next</a>
+                    </li>
+                    </ul>
+                    </nav>
+                </div>
+            <a href="preview.php">
+            <div id="image-icon" style="background:url(../assets/uploads/laptop.jpg);background-size:cover;background-repeat:no-repeat;">
+                <div id="hoverable-div">
+                    <b class="btn2 text-light">Lapton on Lap</b>
+                    <button class="btn text-light"><i class="fa fa-download"></i> 5K</button>
+                    <button class="btn text-light"><i class="fa fa-thumbs-up"></i> 200</button>
+                </div>
+            </div>
+            </a>
             <div id="image-icon" style="background:url(../assets/uploads/laptop.jpg);background-size:cover;background-repeat:no-repeat;">
                 <div id="hoverable-div">
                     <b class="btn2 text-light">Lapton on Lap</b>
@@ -212,14 +236,23 @@
                     <button class="btn text-light"><i class="fa fa-download"></i> 5K</button>
                     <button class="btn text-light"><i class="fa fa-thumbs-up"></i> 200</button>
                 </div>
+                
             </div>
-            <div id="image-icon" style="background:url(../assets/uploads/laptop.jpg);background-size:cover;background-repeat:no-repeat;">
-                <div id="hoverable-div">
-                    <b class="btn2 text-light">Lapton on Lap</b>
-                    <button class="btn text-light"><i class="fa fa-download"></i> 5K</button>
-                    <button class="btn text-light"><i class="fa fa-thumbs-up"></i> 200</button>
+            <div class="w-100 float-left mt-5">
+                    <nav aria-label="...">
+                    <ul class="pagination pagination-sm">
+                    <li class="page-item disabled">
+                    <a class="page-link" href="#!" tabindex="-1">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#!">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#!">Next</a>
+                    </li>
+                    </ul>
+                    </nav>
                 </div>
-            </div>
         </div>
     </div>
     <div class="col-md-1"></div>
